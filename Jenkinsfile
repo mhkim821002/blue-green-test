@@ -29,7 +29,7 @@ pipeline {
   stages {
     stage('git scm update'){
       steps {
-        git url: 'https://github.com/IaC-Source/blue-green.git', branch: 'main'
+        git url: 'https://github.com/mhkim821002/blue-green-test.git', branch: 'main'
       }
     }
     stage('define tag'){
